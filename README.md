@@ -28,4 +28,4 @@ $ git clone https://github.com/Musk-ID/Tronminer
 $ cd Tronminer
 $ python bot.py
 ```
-- [X] Join[here](https://finance.btron.site/r/49938)
+- [X] Join website finance.bitron.site [here](https://finance.btron.site/r/49938)
