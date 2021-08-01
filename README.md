@@ -1,6 +1,6 @@
 ## Fake-imei
 > A trx miner program from the website finance.bitron.site
-![screen](https://github.com/Musk-ID/Tronminer/blob/Musk-ID/image.jpg)
+![screen](https://github.com/Musk-ID/Tronminer/blob/img/image.jpg)
 ## Info
 <p align="center">
  <a href="https://github.com/Musk-ID">
