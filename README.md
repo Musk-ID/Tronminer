@@ -1,4 +1,4 @@
-## Fake-imei
+## Tronminer
 > A trx miner program from the website finance.bitron.site
 ## Info
 <p align="center">
@@ -23,6 +23,7 @@ $ pkg update && pkg upgrade
 $ pkg install python
 $ pkg install git
 $ pip install requests
+$ pip install bs4
 $ git clone https://github.com/Musk-ID/Tronminer
 $ cd Tronminer
 $ python bot.py
