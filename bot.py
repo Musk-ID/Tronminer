@@ -9,7 +9,7 @@ import sys as griv
 from bs4 import BeautifulSoup as par
 
 '''
-A program for miner trons trx from the website Finance.bitron.site
+A program for miner trons trx from the website Finance.btron.site
 and dont forget to follow my github -^_^-
 '''
 
@@ -24,7 +24,7 @@ q = '\033[1;30m'
 
 
 def Config():
-	os.system("cls" if os.name == "nt" else "clear"); print(f"\n   {c}__________  ____  _   __\n  {c}/_  __/ __ \/ __ \/ | / / {q}| {k}* {p}Date: 01-08-2021\n   {c}/ / / /_/ / / / /  |/ /  {q}| {k}* {p}Code by Kingtebe\n  {c}/ / / _, _/ /_/ / /|  /   {q}| {k}* {p}Github: github.com/Musk-ID\n {c}/_/ /_/ |_|\____/_/ |_/    {q}| {k}* {p}From the web Finance.bitron.site{p}\n\n {p}1{m}){q}. {p}Edit config\n {p}2{m}){q}. {p}Start bot")
+	os.system("cls" if os.name == "nt" else "clear"); print(f"\n   {c}__________  ____  _   __\n  {c}/_  __/ __ \/ __ \/ | / / {q}| {k}* {p}Date: 01-08-2021\n   {c}/ / / /_/ / / / /  |/ /  {q}| {k}* {p}Code by Kingtebe\n  {c}/ / / _, _/ /_/ / /|  /   {q}| {k}* {p}Github: github.com/Musk-ID\n {c}/_/ /_/ |_|\____/_/ |_/    {q}| {k}* {p}From the web Finance.btron.site{p}\n\n {p}1{m}){q}. {p}Edit config\n {p}2{m}){q}. {p}Start bot")
 	global headers,data
 	headers = {"user-agent": '',"cookie": ''}
 	data = {"username": '',"password": '',"reference_user_id": '13812'}
@@ -66,7 +66,7 @@ def timer(seconds):
 
 
 def Bot(ajax,dash,linkna):
-	os.system("cls" if os.name == "nt" else "clear"); print(f"\n   {c}__________  ____  _   __\n  {c}/_  __/ __ \/ __ \/ | / / {q}| {k}* {p}Date: 01-08-2021\n   {c}/ / / /_/ / / / /  |/ /  {q}| {k}* {p}Code by Kingtebe\n  {c}/ / / _, _/ /_/ / /|  /   {q}| {k}* {p}Github: github.com/Musk-ID\n {c}/_/ /_/ |_|\____/_/ |_/    {q}| {k}* {p}From the web Finance.bitron.site{p}"); api = requests.get(linkna).json(); print(f"\n {p}Version {q}: {p}1.1 "); time.sleep(1.3); print(f" {p}IP {q}:{c} "+api["ip"]); time.sleep(1.6)
+	os.system("cls" if os.name == "nt" else "clear"); print(f"\n   {c}__________  ____  _   __\n  {c}/_  __/ __ \/ __ \/ | / / {q}| {k}* {p}Date: 01-08-2021\n   {c}/ / / /_/ / / / /  |/ /  {q}| {k}* {p}Code by Kingtebe\n  {c}/ / / _, _/ /_/ / /|  /   {q}| {k}* {p}Github: github.com/Musk-ID\n {c}/_/ /_/ |_|\____/_/ |_/    {q}| {k}* {p}From the web Finance.btron.site{p}"); api = requests.get(linkna).json(); print(f"\n {p}Version {q}: {p}1.1 "); time.sleep(1.3); print(f" {p}IP {q}:{c} "+api["ip"]); time.sleep(1.6)
 	print(f"\n {m}>> {p}Starting Bot {m}<<{p}\n")
 	time.sleep(1)
 	page = requests.get(ajax,headers=headers,timeout=60,data=data)
